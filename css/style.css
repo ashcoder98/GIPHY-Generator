@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+.body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    display: flex;
+    border: 1px dotted red;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 650px;
+}
+
+.gifs {
+border: 1px dotted black;
+
+}
+
+article {
+    border: 1px dotted black;
+    padding: 4rem;
+    margin: 5px;
+    display: inline;
+    
+    
+}
+.formandtitle {
+    margin-top: 75px;
+}
