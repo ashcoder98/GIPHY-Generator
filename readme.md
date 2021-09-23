@@ -12,7 +12,7 @@ A portal that will spawn a gif based on your key-word search.
 - <https://fonts.google.com>
 
 ## Screenshots
-!(./img/Screen Shot 2021-09-23 at 3.49.02 PM.png)
+![Live Server Screenshot](./img/Screenshot.png)
 
 ## Deployed App Link
 
