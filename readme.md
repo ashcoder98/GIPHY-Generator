@@ -12,7 +12,7 @@ A portal that will spawn a gif based on your key-word search.
 - <https://fonts.google.com>
 
 ## Screenshots
-
+!(https://i.imgur.com/jDpXyYo.jpg)
 
 ## Deployed App Link
 
