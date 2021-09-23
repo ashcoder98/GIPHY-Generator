@@ -8,8 +8,8 @@ A portal that will spawn a gif based on your key-word search.
 - Markdown
 - JQuery
 - <https://developers.giphy.com/docs/api/>
-- <neumorphism.io>
-- <fonts.google.com>
+- <https://neumorphism.io>
+- <https://fonts.google.com>
 
 ## Screenshots
 
