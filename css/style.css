@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    background-color: #707070;
+    background-color: #EDEAD0;
+    font-family: 'Gluten', cursive;
 }
 
 html {
@@ -23,10 +24,10 @@ body {
 
 .card {
     display: flex;
-    border-radius: 59px;
-    background: #aa761d;
-    box-shadow: -32px -32px 100px #775314,
-        32px 32px 100px #dd9926;
+    border-radius: 50px;
+    background: #86BAA1;
+    box-shadow: 20px 20px 12px #364a40,
+        -20px -20px 12px #d6ffff;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -40,12 +41,12 @@ body {
     width: 200px;
     height: 200px;
     justify-content: center;
-    background: #aa761d;
+    background-color: #86BAA1;
 }
 
 .formandtitle {
     margin-top: px;
-    background: #aa761d;
+    background: #86BAA1;
 }
 
 form {
@@ -53,11 +54,12 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #aa761d;
+    background: #86BAA1;
 }
 
 h2 {
-    background: #aa761d;
+    background: #86BAA1;
+    font-size: 30px;
 }
 
 .button {
@@ -66,8 +68,9 @@ h2 {
     height: 35px;
     margin-top: 10px;
     border-radius: 120px;
-background: linear-gradient(315deg,);
-box-shadow:  -5px -5px 10px,
+    background: linear-gradient(315deg, );
+    box-shadow: -5px -5px 10px, ;
+    font-size: 17px;
 }
 
 .text {
