@@ -15,7 +15,7 @@ A portal that will spawn a gif based on your key-word search.
 ![Live Server Screenshot](./img/Screenshot.png)
 
 ## Deployed App Link
-
+<https://ashcoder98.github.io/giphy-portal-app/>
 ## Enhancements for the future
 -Be able to have a drop-down for a rating selection for the gifs.   
 
