@@ -12,10 +12,11 @@ A portal that will spawn a gif based on your key-word search.
 - <https://fonts.google.com>
 
 ## Screenshots
-!(https://i.imgur.com/jDpXyYo.jpg)
+!(./img/Screen Shot 2021-09-23 at 3.49.02 PM.png)
 
 ## Deployed App Link
 
 ## Enhancements for the future
--Be able to have a drop-down for a rating selection for the gifs.
+-Be able to have a drop-down for a rating selection for the gifs.   
+
 -Have mulitple gifs come up at once.
