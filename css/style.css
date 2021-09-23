@@ -1,6 +1,18 @@
 * {
     box-sizing: border-box;
+    background-color: #707070;
 }
+
+html {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
 .body {
     height: 100vh;
     width: 100vw;
@@ -8,29 +20,58 @@
     justify-content: center;
     align-items: center;
 }
+
 .card {
     display: flex;
-    border: 1px dotted red;
+    border-radius: 59px;
+    background: #aa761d;
+    box-shadow: -32px -32px 100px #775314,
+        32px 32px 100px #dd9926;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 450px;
-    width: 650px;
+    height: 425px;
+    width: 575px;
 }
 
 .gifs {
-border: 1px dotted black;
-
+    display: flex;
+    margin: 0px 5px 0px 5px;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    background: #aa761d;
 }
 
-article {
-    border: 1px dotted black;
-    padding: 4rem;
-    margin: 5px;
-    display: inline;
-    
-    
-}
 .formandtitle {
-    margin-top: 75px;
+    margin-top: px;
+    background: #aa761d;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #aa761d;
+}
+
+h2 {
+    background: #aa761d;
+}
+
+.button {
+    border-radius: 59px;
+    width: 50%;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 120px;
+background: linear-gradient(315deg,);
+box-shadow:  -5px -5px 10px,
+}
+
+.text {
+    border-radius: 83px;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow: 41px 41px 82px #a3a3a3,
+        -41px -41px 82px #ffffff;
