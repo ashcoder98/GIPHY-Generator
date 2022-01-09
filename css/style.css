@@ -1,10 +1,10 @@
 * {
     box-sizing: border-box;
-    background-color: #EDEAD0;
     font-family: 'Gluten', cursive;
 }
 
 html {
+    background-color: #EDEAD0;
     height: 100vh;
     width: 100vw;
 }
@@ -87,3 +87,8 @@ h2 {
     background: linear-gradient(145deg, #ffffff, #e6e6e6);
     box-shadow: 41px 41px 82px #a3a3a3,
         -41px -41px 82px #ffffff;
+
+}
+.random {
+    margin-top: 1rem;
+}

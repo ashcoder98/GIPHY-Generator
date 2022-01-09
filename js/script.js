@@ -9,7 +9,7 @@ const $random = $('form[class="random"')
 const $img = $('img[class="img1"]');
 const $img2 = $('img[class="img2"]');
 const randomGifs = [
-  'cats', 'pizza', 'skateboard', 'surf', 'hungry', 'eat', 'mad', 'happy'
+  'cats', 'pizza', 'skateboard', 'surf', 'hungry', 'eat', 'mad', 'happy', 'noodles', 'dancing', 'congrats', 'office', 'work'
 ]
 // Random Gif Function
 const randNum = function (min, max) {
