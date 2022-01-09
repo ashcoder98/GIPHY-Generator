@@ -31,21 +31,30 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 425px;
-    width: 575px;
+    height: 60%;
+    width: 40%;
 }
-
+@media (max-width: 35rem){
+    .card {
+        width: 100%;
+    }
+}
 .gifs {
     display: flex;
-    margin: 0px 5px 0px 5px;
-    width: 200px;
-    height: 200px;
+    /* margin: 0px 5px 0px 5px; */
+    width: 50%;
+    
     justify-content: center;
     background-color: #86BAA1;
 }
+@media (max-width: 35rem){
+    .gifs {
+        width: 60%;
+    }
+}
 
 .formandtitle {
-    margin-top: px;
+    /* margin-top: 5px; */
     background: #86BAA1;
 }
 
