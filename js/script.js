@@ -1,8 +1,8 @@
 const mainURL = 'https://api.giphy.com/v1/gifs/search?';
-const randURL = 'https://api.giphy.com/v1/gifs/random?'
+const trendingURL = 'https://api.giphy.com/v1/gifs/trending?'
 const APIKEY = '4BWZutNfTNwYrZtQgo7NooXkIwoBLlga';
 const limit = 25;
-const rating = 'g';
+const rating = 'pg';
 const $input = $('input[type="text"]');
 const $form = $('form');
 const $random = $('form[class="random"]')
@@ -19,6 +19,9 @@ $form.on('submit', getData)
 function getData(event) {
   event.preventDefault();
   const query = $input.val();
+  if ($input.val() == ''){
+    alert('Please type in a search query')
+  }
 
 
   $.ajax(
@@ -47,15 +50,17 @@ function render(gifData) {
 
 /////////////////////////////
 // Random button section
-$random.on('submit', getRandomGif)
+$random.on('submit', getTrendingGif)
 
-function getRandomGif(event) {
+function getTrendingGif(event) {
   event.preventDefault();
 
-  $.ajax(`${randURL}api_key=${APIKEY}&tag=&rating=g`).then(function (data) {
+  $.ajax(`${trendingURL}api_key=${APIKEY}&limit=${limit}&rating=${rating}`).then(function (data) {
       console.log(data)
-      const gifData = data.data.images.fixed_height.url
-      render(gifData)
+      $.each(data.data, function (index, element) {
+        console.log(element.url)
+        $images.append(`<li><img src=${element.images.fixed_height.url}></li>`)
+      })
     }),
     function (error) {
       console.log(error)
