@@ -27,14 +27,11 @@ function getData(event) {
   
    
     ).then(function (data) {
-      console.log(data)
+      // console.log(data)
       $.each(data.data, function (index, element) {
         console.log(element.url)
         $images.append(`<li><img src=${element.images.fixed_height.url}></li>`)
       })
-      // const randomData = randNum(0, data.data.length - 1)
-      // const gifData = data.data[randomData].images.fixed_height.url
-      // render(gifData)
       $input.val('')
 }),
     function (error) {
