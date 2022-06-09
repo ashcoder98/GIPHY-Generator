@@ -13,26 +13,32 @@
 </head>
 
 <body>
-  <Header>
-    <h1></h1>
-  </Header>
-  <div class="body">
-    <div class="card">
-      <div class="gifs">
-        <img class="img1" src="">
-        <ul class="images">
-        </ul>
-      </div>
-      <div class="formandtitle">
-        <h2>Giphy Portal</h2>
-        <form>
+  <header>
+    <h2>Giphy Portal</h2>
+    <nav class="nav">
+      <ul class="navbarlist">
+        <li>
           <input class="text" type="text" placeholder="e.g. Cats">
-          <input class="button" type="submit">
-        </form>
-        <form class="random">
-          <input type="submit" value="Random">
-        </form>
-      </div>
+        </li>
+        <li>
+          <label for="limit">Limit</label>
+          <select name="limit" id="limit">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="25">25</option>
+            <option value="50">50</option>
+          </select>
+        </li>
+        <li>
+          <button class="submit">Submit</button>
+        </li>
+      </ul>
+    </nav>
+    <button class="trending">Trending</button>
+  </header>
+  <div class="body">
+    <div class="gifs">
+      <ul class="images"></ul>
     </div>
   </div>
 </body>

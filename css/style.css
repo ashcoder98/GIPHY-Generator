@@ -1,94 +1,56 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     font-family: 'Gluten', cursive;
 }
 
 html {
-    background-color: #EDEAD0;
+    background-color: #0e0e0e;
+    color: white;
     height: 100vh;
     width: 100vw;
 }
-
-body {
-    height: 100vh;
-    width: 100vw;
-}
-
-.body {
-    height: 100vh;
-    width: 100vw;
+header {
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    margin: 2rem 2.5rem 1rem 1rem;
+    padding: 1rem;
+}
+.navbarlist {
+    list-style: none;
     align-items: center;
 }
-
-.card {
-    display: flex;
-    border-radius: 50px;
-    background: #86BAA1;
-    box-shadow: 20px 20px 12px #364a40,
-        -20px -20px 12px #d6ffff;
-    flex-direction: column;
-    justify-content: center;
+.navbarlist li {
+    display: inline-block;
+    padding: 0px 5px
+}
+option select #limit {
+    padding: 10px;
+    margin-top: 25px;
+}
+#limit {
     align-items: center;
-    height: 60%;
-    width: 40%;
+    padding: 7.5px
 }
-@media (max-width: 35rem){
-    .card {
-        width: 100%;
-    }
+button {
+    padding: 7.5px;
 }
-.gifs {
-    display: flex;
-    /* margin: 0px 5px 0px 5px; */
-    width: 50%;
-    
-    justify-content: center;
-    background-color: #86BAA1;
-}
-@media (max-width: 35rem){
-    .gifs {
-        width: 60%;
-    }
-}
-
-.formandtitle {
-    /* margin-top: 5px; */
-    background: #86BAA1;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #86BAA1;
-}
-
-h2 {
-    background: #86BAA1;
-    font-size: 30px;
-}
-
-.button {
-    border-radius: 59px;
-    width: 50%;
-    height: 35px;
-    margin-top: 10px;
-    border-radius: 120px;
-    background: linear-gradient(315deg, );
-    box-shadow: -5px -5px 10px, ;
-    font-size: 17px;
-}
-
 .text {
-    border-radius: 83px;
-    background: linear-gradient(145deg, #ffffff, #e6e6e6);
-    box-shadow: 41px 41px 82px #a3a3a3,
-        -41px -41px 82px #ffffff;
-
+    padding: 20px 200px 10px 20px;
+    border-radius: 10px;
 }
-.random {
-    margin-top: 1rem;
+.body {
+    width: 100%;
+    height: 100%;
+}
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px;
+    justify-content: center;
+    list-style: none;
 }
