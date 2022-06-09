@@ -43,13 +43,6 @@ function getData(event) {
       console.log(error)
     }
 }
-
-// Helper function
-function render(gifData) {
-  console.log(gifData)
-  $img.attr('src', gifData)
-};
-
 /////////////////////////////
 // Random button section
 $random.on('click', getTrendingGif)
