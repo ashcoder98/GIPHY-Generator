@@ -13,12 +13,13 @@ html {
 }
 header {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     margin: 2rem 2.5rem 1rem 1rem;
     padding: 1rem;
 }
+
 .navbarlist {
     list-style: none;
     align-items: center;
@@ -64,6 +65,7 @@ option select #limit {
     padding: 20px 200px 10px 20px;
     border-radius: 10px;
 }
+
 .body {
     width: 100%;
     height: 100%;
@@ -87,7 +89,7 @@ i {
     --border-width: 4px;
     appearance: none;
     position: relative;
-    padding: 1em 2em;
+    padding: 1em 1em;
     border: 0;
     background-color:  #212121;
     font-family: "Roboto", Arial, "Segoe UI", sans-serif;
@@ -147,3 +149,23 @@ i {
    .trending:active {
     --border-width: 5px;
    }
+   @media (max-width: 35rem){
+    header {
+        flex-direction: column;
+        margin: 2rem 1rem 1rem 1rem;
+        
+    }
+    .text {
+        padding: 20px 100px 10px 20px;
+    }
+    .searchbar {
+        display: flex;
+        flex-direction: row;
+    }
+    .navbarlist li {
+        margin: .5rem;
+    }
+    .navbarlist i {
+        display: none;
+    }
+}
