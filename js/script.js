@@ -4,7 +4,7 @@ const APIKEY = '4BWZutNfTNwYrZtQgo7NooXkIwoBLlga';
 const $limit = $('select[name="limit"]')
 const rating = 'pg';
 const $input = $('input[type="text"]');
-const $search = $('button[class="submit"]')
+const $search = $('button[class="button"]')
 const $form = $('form');
 const $random = $('button[class="trending"]')
 const $img = $('img[class="img1"]');

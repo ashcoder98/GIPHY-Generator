@@ -6,7 +6,7 @@
 }
 
 html {
-    background-color: #0e0e0e;
+    background-color: #212121;
     color: white;
     height: 100vh;
     width: 100vw;
@@ -35,9 +35,31 @@ option select #limit {
     align-items: center;
     padding: 7.5px
 }
-button {
-    padding: 7.5px;
-}
+/* From uiverse.io by @Voxybuns */
+.button {
+    --bg: #000;
+    --hover-bg: #ff90e8;
+    --hover-text: #000;
+    color: #fff;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    background: var(--bg);
+    transition: 0.2s;
+  }
+  
+  .button:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem,-0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+  
+  .button:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
+
 .text {
     padding: 20px 200px 10px 20px;
     border-radius: 10px;
@@ -67,7 +89,7 @@ i {
     position: relative;
     padding: 1em 2em;
     border: 0;
-    background-color:  #0e0e0e;
+    background-color:  #212121;
     font-family: "Roboto", Arial, "Segoe UI", sans-serif;
     font-size: 18px;
     font-weight: 500;
