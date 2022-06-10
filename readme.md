@@ -19,4 +19,3 @@ A portal that will spawn gifs based on your key-word search and limit the amount
 ## Enhancements for the future
 -Be able to have a drop-down for a rating selection for the gifs.   
 
--Have mulitple gifs come up at once.
