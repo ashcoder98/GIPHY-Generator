@@ -1,5 +1,5 @@
 # Giphy Portal
-A portal that will spawn a gif based on your key-word search.
+A portal that will spawn gifs based on your key-word search and limit the amount based on your selection.
 
 ## Technologies used
 - HTML
